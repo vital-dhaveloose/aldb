@@ -1,0 +1,67 @@
+{
+    "$schema": "https://github.com/vital-dhaveloose/aldb/blob/main/api/activity.schema.json",
+    "id": "http://uius.dhav.eu/activities/f6362685-b271-45a3-a92e-593f69e95b91",
+    "version": "0",
+    "label": {
+        "en-GB": "Bathroom renovation",
+        "icon": "🛀"
+    },
+    "period": {
+        "startTime": "2020-05-15T00:00:00+01:00"
+    },
+    "participations": [
+        {
+            "participator": {
+                "givenName": "Vital",
+                "familyName": "D'haveloose",
+                "email": "vital.dhaveloose@dhav.eu"
+            },
+            "roles": [
+                "http://uius.org/apps/projects/roles/lead"
+            ]
+        }
+    ],
+    "subs": [
+        {
+            "id": "http://uius.dhav.eu/activities/529d999c-ffe7-473a-a3ac-e784f59e16fd",
+            "label": {
+                "en-GB": "Choosing tiles"
+            },
+            "attributeSets": {
+                "http://uius.org/apps/tasks/schema#Task": {
+                    "manifest": {
+                        "id": "http://uius.org/apps/tasks/schema#Task"
+                    },
+                    "attributes": {
+                        "status": "done"
+                    }
+                }
+            },
+            "subs": [
+                {
+                    "id": "http://uius.dhav.eu/activities/8919153c-387c-4cbf-8e25-e9789487eb93",
+                    "label": {
+                        "en-GB": "comparison table"
+                    }
+                }
+            ]
+        }
+    ],
+    "attributeSets": {
+        "https://dhav.eu/schemas/project": {
+            "manifest": {
+                "id": "https://dhav.eu/schemas/project"
+            },
+            "attributes": {
+                "priority": "normal",
+                "deadline": "2020-07-16"
+            }
+        }
+    },
+    "blob": {
+        "manifest": {
+            "media-type": "text/markdown"
+        },
+        "bytesBase64": "IyBJZGVhcwotIG1hbnkgdHJvcGljIHBsYW50cwotIGdyZWVuIHZlcnRpY2FsIHRpbGVzCi0gcmVjdXBlcmF0ZSBoZWF0IG9mIHNob3dlciBkcmFpbmFnZQ=="
+    }
+}

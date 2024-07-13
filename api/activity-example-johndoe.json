@@ -1,0 +1,331 @@
+{
+    "$schema": "https://github.com/vital-dhaveloose/aldb/blob/main/api/activity.schema.json",
+    "id": "https://doe.eu/activities/49984793-908e-419e-bc21-6fdac210add2",
+    "version": "0",
+    "label": {
+        "en-GB": "John Doe's life"
+    },
+    "subs": [
+        {
+            "id": "https://doe.eu/activities/6fbf4918-ad5e-4154-99b5-2fbe3762485a",
+            "version": "0",
+            "label": {
+                "en-GB": "Work"
+            },
+            "subs": [
+                {
+                    "id": "https://green-corp.eu/activities/72b3c75c-996d-45ce-81ad-06e4121726a2",
+                    "version": "0",
+                    "label": {
+                        "en-GB": "Green Corp"
+                    },
+                    "subs": [
+                        {
+                            "id": "https://green-corp.eu/activities/5bc689cf-28c2-47b8-8cf6-91496baae683",
+                            "version": "0",
+                            "label": {
+                                "en-GB": "Odinson Offshore Wind Park"
+                            },
+                            "subs": [
+                                {
+                                    "id": "https://green-corp.eu/activities/cc86e816-7374-47f7-aebf-3d5268bed678",
+                                    "version": "0",
+                                    "label": {
+                                        "en-GB": "Business"
+                                    },
+                                    "subs": [
+                                        {
+                                            "id": "https://green-corp.eu/activities/0c927926-ba6d-4ecb-bef9-2f43eeeb2f54",
+                                            "version": "0",
+                                            "label": {
+                                                "en-GB": "Budget"
+                                            }
+                                        },
+                                        {
+                                            "id": "https://green-corp.eu/activities/6afe860b-d0f8-4566-9419-fe66d6c04c04",
+                                            "version": "0",
+                                            "label": {
+                                                "en-GB": "Planning"
+                                            }
+                                        },
+                                        {
+                                            "id": "https://green-corp.eu/activities/4cd979b1-ef2c-4faa-bed8-c2881d951118",
+                                            "version": "0",
+                                            "label": {
+                                                "en-GB": "Public tender"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "https://green-corp.eu/activities/c1cbb6b5-6f36-4345-90c2-499a355c04d3",
+                                    "version": "0",
+                                    "label": {
+                                        "en-GB": "Engineering"
+                                    },
+                                    "subs": [
+                                        {
+                                            "id": "https://green-corp.eu/activities/20f1e983-a9bb-40a6-8ce4-d1b73b822f78",
+                                            "version": "0",
+                                            "label": {
+                                                "en-GB": "Architecture"
+                                            }
+                                        },
+                                        {
+                                            "id": "https://green-corp.eu/activities/01bf3a78-ae1d-446b-885f-5df58480b836",
+                                            "version": "0",
+                                            "label": {
+                                                "en-GB": "Mill selection"
+                                            }
+                                        },
+                                        {
+                                            "id": "https://green-corp.eu/activities/28d6270b-6d1a-4869-9b77-8c94225ef888",
+                                            "version": "0",
+                                            "label": {
+                                                "en-GB": "Placement optimisation"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "https://green-corp.eu/activities/4c98ab96-2545-4642-a5cf-000b47c6f282",
+                                    "version": "0",
+                                    "label": {
+                                        "en-GB": "Environmental study"
+                                    }
+                                },
+                                {
+                                    "id": "https://green-corp.eu/activities/36516c5e-0f22-448d-89b1-735686c1dd9c",
+                                    "version": "0",
+                                    "label": {
+                                        "en-GB": "Legal"
+                                    },
+                                    "subs": [
+                                        {
+                                            "id": "https://green-corp.eu/activities/ccdc8009-196a-4dbd-aa8e-b559fe5d38c1",
+                                            "version": "0",
+                                            "label": {
+                                                "en-GB": "Permits"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://green-corp.eu/activities/1110ba7f-e72e-4516-8a28-6a43924ea4c8",
+                            "version": "0",
+                            "label": {
+                                "en-GB": "Hella Wind Park"
+                            },
+                            "subs": [
+                                {
+                                    "id": "https://green-corp.eu/activities/dc4c6f31-d35a-4ab1-90a9-c1a6b8bb54bb",
+                                    "version": "0",
+                                    "label": {
+                                        "en-GB": "Business"
+                                    }
+                                },
+                                {
+                                    "id": "https://green-corp.eu/activities/3ef42cd4-f90b-4d7e-8a4e-6e6fdde35955",
+                                    "version": "0",
+                                    "label": {
+                                        "en-GB": "Engineering"
+                                    },
+                                    "subs": [
+                                        {
+                                            "id": "https://green-corp.eu/activities/8b3fb42a-2743-4c6b-99d3-8ad44ad0d067",
+                                            "version": "0",
+                                            "label": {
+                                                "en-GB": "Mill type selection"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "https://green-corp.eu/activities/e03780d0-f910-4344-bbdb-ee98d400ba9f",
+                                    "version": "0",
+                                    "label": {
+                                        "en-GB": "Legal"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://doe.eu/activities/11c46c63-9c45-4cbb-9815-dacdd45bb78a",
+            "version": "0",
+            "label": {
+                "en-GB": "Doe family"
+            },
+            "subs": [
+                {
+                    "id": "https://doe.eu/activities/e2c5c5b8-e9a7-44e2-997c-3d14a26f93af",
+                    "version": "0",
+                    "label": {
+                        "en-GB": "Spain 2020"
+                    },
+                    "subs": [
+                        {
+                            "id": "https://doe.eu/activities/d6afeca5-c8d9-404f-9e6a-68949292c085",
+                            "version": "0",
+                            "label": {
+                                "en-GB": "Itinerary"
+                            }
+                        },
+                        {
+                            "id": "https://doe.eu/activities/284b8def-3f02-4552-b5a7-e3619dbeb8c4",
+                            "version": "0",
+                            "label": {
+                                "en-GB": "Playlist"
+                            }
+                        },
+                        {
+                            "id": "https://doe.eu/activities/6b21f5d8-0b80-44b4-8082-72bbd09920e9",
+                            "version": "0",
+                            "label": {
+                                "en-GB": "Photos"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "https://doe.eu/activities/bde2ad2e-fa77-497d-bce5-4acbe52e2f80",
+                    "version": "0",
+                    "label": {
+                        "en-GB": "Household"
+                    },
+                    "subs": [
+                        {
+                            "id": "https://doe.eu/activities/c9e6f0d1-b3ec-4aa6-bdb6-cdf07ab3f631",
+                            "version": "0",
+                            "label": {
+                                "en-GB": "Groceries"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "https://doe.eu/activities/6b357ff6-7c70-4639-bc49-5958c155117f",
+                    "version": "0",
+                    "label": {
+                        "en-GB": "Raspberry road 45"
+                    },
+                    "subs": [
+                        {
+                            "id": "https://doe.eu/activities/630132c3-11d9-4175-b99b-51d1e4fe7105",
+                            "version": "0",
+                            "label": {
+                                "en-GB": "Technical"
+                            },
+                            "subs": [
+                                {
+                                    "id": "https://doe.eu/activities/79694587-05b9-42db-a6fa-b92788f79dad",
+                                    "version": "0",
+                                    "label": {
+                                        "en-GB": "Electrical"
+                                    }
+                                },
+                                {
+                                    "id": "https://doe.eu/activities/a443ca7f-5336-4df7-a59f-3e04b44a2d98",
+                                    "version": "0",
+                                    "label": {
+                                        "en-GB": "Drainage"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://doe.eu/activities/79c1ce3a-621e-4939-8f5b-48f574ceb5c5",
+                            "version": "0",
+                            "label": {
+                                "en-GB": "Business"
+                            },
+                            "subs": [
+                                {
+                                    "id": "https://doe.eu/activities/7e21dbdc-c83c-40d5-8490-5bb62308e658",
+                                    "version": "0",
+                                    "label": {
+                                        "en-GB": "Mortgage"
+                                    }
+                                },
+                                {
+                                    "id": "https://doe.eu/activities/45f7b925-c9cc-460d-901c-99e7a78b2d4c",
+                                    "version": "0",
+                                    "label": {
+                                        "en-GB": "Insurance"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://doe.eu/activities/af420559-a988-4713-944e-77971bb7b17d",
+            "version": "0",
+            "label": {
+                "en-GB": "Business"
+            },
+            "subs": [
+                {
+                    "id": "https://doe.eu/activities/a647cfeb-41ea-47d8-a28b-ec4349a0c245",
+                    "version": "0",
+                    "label": {
+                        "en-GB": "Cash Flow"
+                    }
+                },
+                {
+                    "id": "https://doe.eu/activities/4ccbc9df-569d-4eda-bbdf-cc4ca96d6c0d",
+                    "version": "0",
+                    "label": {
+                        "en-GB": "Insurance"
+                    }
+                },
+                {
+                    "id": "https://doe.eu/activities/1a1d3673-ba85-46cd-8dbe-f8ed3ff45493",
+                    "version": "0",
+                    "label": {
+                        "en-GB": "Savings"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://doe.eu/activities/655a686f-153f-496f-9faa-bbaa01e3af6e",
+            "version": "0",
+            "label": {
+                "en-GB": "Entertainment"
+            },
+            "subs": [
+                {
+                    "id": "https://doe.eu/activities/3383a045-8a76-4c2e-8962-a6ac350db681",
+                    "version": "0",
+                    "label": {
+                        "en-GB": "Gaming"
+                    },
+                    "subs": [
+                        {
+                            "id": "https://doe.eu/activities/34a93ab6-0c06-4ae1-802f-09e7585cf261",
+                            "version": "0",
+                            "label": {
+                                "en-GB": "Halo"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "https://doe.eu/activities/fbb08336-0060-4d15-8e73-defff83ddb49",
+                    "version": "0",
+                    "label": {
+                        "en-GB": "To watch/read"
+                    }
+                }
+            ]
+        }
+    ]
+}

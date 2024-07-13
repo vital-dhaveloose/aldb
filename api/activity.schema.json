@@ -1,0 +1,170 @@
+{
+    "id": "http://aldb.org/schema/ActivityVersion",
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "type": "object",
+    "properties": {
+        "$schema": {
+            "type": "string",
+            "format": "uri",
+            "description": "Schema meta field to reference this schema with."
+        },
+        "id": {
+            "type": "string",
+            "format": "uri",
+            "description": "The identifier of the Activity, formatted as a URI."
+        },
+        "version": {
+            "type": "string",
+            "description": "A version representation of the ActivityVersion"
+        },
+        "label": {
+            "type": "object",
+            "description": "A map with short strings for representing the Activity in a UI. The keys of the map are locales.",
+            "additionalProperties": {
+              "type": "string"
+            }
+        },
+        "period": {
+            "$ref": "#/definitions/period",
+            "description": "The period in which the Activity is considered 'current'."
+        },
+        "participations": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/participation"
+            }
+        },
+        "subs": {
+            "type": "array",
+            "items": {
+                "$ref": "#"
+            },
+            "description": "Activities that are part of this Activity."
+        },
+        "supers": {
+            "type": "array",
+            "items": {
+                "$ref": "#"
+            },
+            "description": "Activities that this Activity is part of."
+        },
+        "attributeSets": {
+            "type": "object",
+            "additionalProperties": {
+                "type": "object",
+                "properties": {
+                    "manifest": {
+                        "$ref": "#/definitions/attributeSetManifest"
+                    },
+                    "attributes": {
+                        "type": "object"
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "blob": {
+            "type": "object",
+            "properties": {
+                "manifest": {
+                    "$ref": "#/definitions/blobManifest"
+                },
+                "bytesBase64": {
+                    "type": "string"
+                },
+                "blobRef": {
+                    "type": "string",
+                    "format": "uri"
+                }
+            },
+            "additionalProperties": false
+        }
+    },
+    "additionalProperties": false,
+    "definitions": {
+        "participation": {
+            "type": "object",
+            "properties": {
+                "participator": {
+                    "type": "object",
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/person"
+                        },
+                        {
+                            "$ref": "#/definitions/group"
+                        }
+                    ]
+                },
+                "roles": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri"
+                    },
+                    "description": "An array of URIs referencing the roles of the participators in this participation."
+                }
+            }
+        },
+        "person": {
+            "type": "object",
+            "properties": {
+                "givenName": {
+                    "type": "string"
+                },
+                "familyName": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string",
+                    "format": "email"
+                }
+            }
+        },
+        "group": {
+            "type": "object",
+            "description": "A group of people.",
+            "properties": {
+                "display": {
+                    "type": "string",
+                    "description": "A string describing the Group, for example: \"Team Blue\""
+                },
+                "email": {
+                    "type": "string",
+                    "format": "email"
+                }
+            }
+        },
+        "period": {
+            "type": "object",
+            "properties": {
+                "startTime": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "endTime": {
+                    "type": "string",
+                    "format": "date-time"
+                }
+            },
+            "additionalProperties": false
+        },
+        "attributeSetManifest": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "format": "uri"
+                }
+            }
+        },
+        "blobManifest": {
+            "type": "object",
+            "properties": {
+                "mediaType": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

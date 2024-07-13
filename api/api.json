@@ -1,0 +1,20 @@
+{
+    "openapi":"3.0.2",
+    "info": {
+        "title":"ALDB API",
+        "version":"1.0"
+    },
+    "servers": [],
+    "paths": {
+        "/activities": {
+            "get": {
+                "description": "Get Activities that the User has access to.",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        }
+    }
+}

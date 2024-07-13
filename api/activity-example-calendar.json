@@ -1,0 +1,39 @@
+{
+    "$schema": "https://github.com/vital-dhaveloose/aldb/blob/main/api/activity.schema.json",
+    "id": "http://uius.dhav.eu/activities/f6362685-b271-45a3-a92e-593f69e95b91",
+    "version": "0",
+    "label": {
+        "en-GB": "Hairdresser appointment",
+        "icon": "✂️"
+    },
+    "period": {
+        "startTime": "2020-01-15T15:30:00Z",
+        "endTime": "2020-01-15T16:00:00Z"
+    },
+    "participations": [
+        {
+            "participator": {
+                "givenName": "Vital",
+                "familyName": "D'haveloose",
+                "email": "vital.dhaveloose@dhav.eu"
+            },
+            "roles": [
+                "http://uius.org/apps/calendar/roles/organiser"
+            ]
+        }
+    ],
+    "attributeSets": {
+        "http://uius.org/apps/calendar/schema#Event": {
+            "manifest": {
+                "id": "http://uius.org/apps/calendar/schema#Event",
+                "attributes": {
+                    "priority": "normal",
+                    "reminder": "2020-01-15T15:00:00Z",
+                    "location": {
+                        "display": "Hair Salon X"
+                    }
+                }
+            }
+        }
+    }
+}
