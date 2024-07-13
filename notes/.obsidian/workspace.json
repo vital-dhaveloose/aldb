@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "cd444afafe1eda20",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4aa17b114a14bbe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04fa1567cef6ec2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0 Introduction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ba07bef61d1e40f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 Other data storage solutions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8a18c15c12a37a48",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d9e5797a5c8aefb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed28c5f81a92f103",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "90b8d469c18cdcad",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "81527b55f7130698",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "47e57b87dbcd0bcb",
+    "type": "split",
+    "children": [
+      {
+        "id": "38be81f390bb04e0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ab5a5870f1ac7a8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "0 Introduction.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a3a9f35397a20d91",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "0 Introduction.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2fcb5b878402d9bb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "93233fad82be93ec",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "0 Introduction.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "04fa1567cef6ec2b",
+  "lastOpenFiles": [
+    "1 Foundations.md",
+    "0 Introduction.md",
+    "2 Other data storage solutions.md",
+    "Todo.md",
+    "Other applications of the ALDB structure.md",
+    "res/diagrams.drawio",
+    "res/document-with-title.svg",
+    "res",
+    "An implementation.md",
+    "Welcome.md"
+  ]
+}

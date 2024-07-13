@@ -1,0 +1,5 @@
+- [ ] Write about history (UIUS, ...)
+- [ ] Publicise
+	- [ ] GitHub
+	- [ ] Reddit
+	- [ ] Arxive (as a paper)

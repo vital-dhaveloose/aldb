@@ -1,0 +1,55 @@
+<mxfile host="Electron" modified="2024-06-04T19:36:00.518Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.8 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="nZK_4bXM3dk_Q9eQMNYb" version="24.4.8" type="device">
+  <diagram name="Pagina-1" id="m9BhIWeoD6_Anmc1CHFs">
+    <mxGraphModel dx="615" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RwQc8iivgt6uILmzmPr5-1" value="document x" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#009999;fontFamily=Tahoma;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RwQc8iivgt6uILmzmPr5-2" value="" style="endArrow=oval;html=1;rounded=0;startArrow=oval;startFill=1;endFill=1;labelBackgroundColor=#009999;fontFamily=Tahoma;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="80" as="sourcePoint" />
+            <mxPoint x="280" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RwQc8iivgt6uILmzmPr5-3" value="has title →" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#009999;fontFamily=Tahoma;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="140" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RwQc8iivgt6uILmzmPr5-4" value="&quot;Progress report 2024Q3&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#009999;fontFamily=Tahoma;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="220" y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RwQc8iivgt6uILmzmPr5-5" value="document x" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#009999;fontFamily=Tahoma;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="30" y="160" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RwQc8iivgt6uILmzmPr5-6" value="" style="endArrow=oval;html=1;rounded=0;startArrow=oval;startFill=1;endFill=1;labelBackgroundColor=#009999;fontFamily=Tahoma;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="200" as="sourcePoint" />
+            <mxPoint x="260" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RwQc8iivgt6uILmzmPr5-7" value="has title →" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#009999;fontFamily=Tahoma;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="130" y="170" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RwQc8iivgt6uILmzmPr5-8" value="&quot;Progress report 2024Q3&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#009999;fontFamily=Tahoma;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="270" y="190" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RwQc8iivgt6uILmzmPr5-9" value="" style="endArrow=oval;html=1;rounded=1;startArrow=oval;startFill=1;endFill=1;labelBackgroundColor=#009999;fontFamily=Tahoma;curved=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="200" as="sourcePoint" />
+            <mxPoint x="260" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RwQc8iivgt6uILmzmPr5-12" value="has author →" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#009999;fontFamily=Tahoma;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="130" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RwQc8iivgt6uILmzmPr5-13" value="John Doe" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#009999;fontFamily=Tahoma;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="250" y="230" width="110" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

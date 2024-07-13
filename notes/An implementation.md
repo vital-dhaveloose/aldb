@@ -1,0 +1,7 @@
+- [ ] meta model
+	- [ ] identity
+	- [ ] versioning
+	- [ ] attribute sets for symbolic information
+		- [ ] links or terminal symbols, such as numbers, text strings, dates and times, booleans, structs, maps and lists
+	- [ ] blob: for sensory information (or symbolic information that is not exposed to ALDB for some reason)
+- [ ] abstract and maybe concrete API for an ALDB backend
