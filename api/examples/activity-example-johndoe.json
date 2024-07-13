@@ -1,5 +1,5 @@
 {
-    "$schema": "https://github.com/vital-dhaveloose/aldb/blob/main/api/activity.schema.json",
+    "$schema": "https://raw.githubusercontent.com/vital-dhaveloose/aldb/main/api/activity.schema.json",
     "id": "https://doe.eu/activities/49984793-908e-419e-bc21-6fdac210add2",
     "version": "0",
     "label": {

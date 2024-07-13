@@ -1,8 +1,8 @@
 {
-    "openapi":"3.0.2",
+    "openapi": "3.0.2",
     "info": {
-        "title":"ALDB API",
-        "version":"1.0"
+        "title": "ALDB API",
+        "version": "1.0"
     },
     "servers": [],
     "paths": {
@@ -11,7 +11,17 @@
                 "description": "Get Activities that the User has access to.",
                 "responses": {
                     "200": {
-                        "description": "Success"
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "activity.schema.json"
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
