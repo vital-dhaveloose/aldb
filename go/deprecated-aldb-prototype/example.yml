@@ -1,0 +1,18 @@
+---
+- example-1:
+    id: 'example-1'
+    versions:
+      - versionId: 2022-10-30T19:52:00.000Z
+        attributes:
+          type: project
+          name:
+            en-GB: FooBar
+          startDate: 2020-09-12
+          status: abandoned
+      - versionId: 2022-08-24T19:52:00.000Z
+        attributes:
+          type: project
+          name:
+            en-GB: FooBar
+          startDate: 2020-09-12
+          status: ongoing

@@ -1,0 +1,10 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "./go/common/api/activity-example-project.json"
+            ],
+            "url": "./go/common/api/activity-schema.json"
+        }
+    ]
+}
