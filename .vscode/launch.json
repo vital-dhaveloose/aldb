@@ -22,5 +22,19 @@
             "mode": "debug",
             "program": "${file}"
         },
+        {
+            "name": "ng serve canviga",
+            "type": "chrome",
+            "request": "launch",
+            "preLaunchTask": "npm: start",
+            "url": "http://localhost:4200/"
+        },
+        {
+            "name": "ng test canviga",
+            "type": "chrome",
+            "request": "launch",
+            "preLaunchTask": "npm: test",
+            "url": "http://localhost:9876/debug.html"
+        }
     ]
 }

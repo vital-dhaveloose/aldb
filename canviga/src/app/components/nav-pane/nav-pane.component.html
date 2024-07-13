@@ -1,0 +1,27 @@
+<fluent-tree-view>
+    {{getRootActivity()["label"]!["en-GB"]}}
+    <fluent-tree-item *ngFor="let sub of getRootActivity().subs">
+      {{sub["label"]!["en-GB"]}}
+    </fluent-tree-item>
+
+    <fluent-tree-item>
+        Fruit
+      <fluent-tree-item>Pear</fluent-tree-item>
+      <fluent-tree-item>Mango</fluent-tree-item>
+      <fluent-tree-item>Guava</fluent-tree-item>
+      <fluent-tree-item>Pomegranate</fluent-tree-item>
+      <fluent-tree-item>
+        Apple
+        <fluent-tree-item>Pink Lady</fluent-tree-item>
+        <fluent-tree-item>Granny Smith</fluent-tree-item>
+      </fluent-tree-item>
+    </fluent-tree-item>
+    <fluent-tree-item>
+      Guitars
+      <fluent-tree-item>Fender</fluent-tree-item>
+      <fluent-tree-item>Gibson</fluent-tree-item>
+      <fluent-tree-item>Teisco</fluent-tree-item>
+      <fluent-tree-item>Martin</fluent-tree-item>
+    </fluent-tree-item>
+    <fluent-tree-item>Earth</fluent-tree-item>
+  </fluent-tree-view>
