@@ -1,5 +1,4 @@
 In this text some popular data storage solutions are compared to ALDB.
-
 # Aspects being compared
 - the reasons a special relation "is part of" exists in ALDB: the need to get overview, to navigate (starting from scratch) and administering data
 - support for different kinds of information in the structure

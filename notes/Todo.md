@@ -1,5 +1,6 @@
 - [ ] Write about history (UIUS, ...)
-- [ ] Publicise
-	- [ ] GitHub
+- [ ] Publish
+	- [x] GitHub
 	- [ ] Reddit
 	- [ ] Arxive (as a paper)
+	- [ ] Digital Garden?

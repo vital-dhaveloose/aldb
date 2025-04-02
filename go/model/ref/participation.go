@@ -1,6 +1,6 @@
 package ref
 
 type ParticipationRef struct {
-	ActivityRef
+	NodeRef
 	ParticipationId string
 }

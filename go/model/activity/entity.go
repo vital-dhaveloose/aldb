@@ -1,4 +1,4 @@
-package participation
+package activity
 
 import (
 	"errors"
@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/vital-dhaveloose/aldb/base/aldberr"
-	"github.com/vital-dhaveloose/aldb/common/lang"
+	"github.com/vital-dhaveloose/aldb/model/common/lang"
 )
 
 type EntityRef struct {

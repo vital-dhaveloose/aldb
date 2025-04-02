@@ -1,9 +1,9 @@
-package participation
+package activity
 
 import (
-	"github.com/vital-dhaveloose/aldb/common/datetime"
-	"github.com/vital-dhaveloose/aldb/common/lang"
-	"github.com/vital-dhaveloose/aldb/ref"
+	"github.com/vital-dhaveloose/aldb/model/common/datetime"
+	"github.com/vital-dhaveloose/aldb/model/common/lang"
+	"github.com/vital-dhaveloose/aldb/model/ref"
 )
 
 //User represents an Entity that can use the system in an authenticated way for a certain context.

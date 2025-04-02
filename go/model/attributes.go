@@ -1,6 +1,6 @@
-package attributes
+package model
 
-import "github.com/vital-dhaveloose/aldb/ref"
+import "github.com/vital-dhaveloose/aldb/model/ref"
 
 const (
 	AttrSetIdBlob = "blob-attrs"

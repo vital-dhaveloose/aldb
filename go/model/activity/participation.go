@@ -1,8 +1,8 @@
-package participation
+package activity
 
 import (
-	"github.com/vital-dhaveloose/aldb/common/datetime"
-	"github.com/vital-dhaveloose/aldb/ref"
+	"github.com/vital-dhaveloose/aldb/model/common/datetime"
+	"github.com/vital-dhaveloose/aldb/model/ref"
 )
 
 type Participation struct {

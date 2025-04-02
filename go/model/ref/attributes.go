@@ -3,7 +3,7 @@ package ref
 import "net/url"
 
 type AttributeSetRef struct {
-	ActivityRef
+	NodeRef
 	AttributeSetId string
 }
 

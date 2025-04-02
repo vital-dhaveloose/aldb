@@ -2,12 +2,12 @@ package ref
 
 import "net/url"
 
-type ActivityRef struct {
+type NodeRef struct {
 	Id      *url.URL
 	Version string
 }
 
-//func (r ActivityRef) MarshalJSON() ([]byte, error) {
+//func (r NodeRef) MarshalJSON() ([]byte, error) {
 //	if r.Id == nil {
 //		return []byte(""), nil
 //	}

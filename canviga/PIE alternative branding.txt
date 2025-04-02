@@ -1,0 +1,3 @@
+- PIE: Personal Information Engine
+  - easy as pie
+- like Obsidian, but based on ALDB and not limited to static notes but UI for forms (/form design), workflows, communication, ...

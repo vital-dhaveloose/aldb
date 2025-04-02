@@ -1,7 +1,7 @@
-package blob
+package model
 
 import (
-	"github.com/vital-dhaveloose/aldb/common/mediatype"
+	"github.com/vital-dhaveloose/aldb/model/common/mediatype"
 )
 
 type BlobManifest struct {
